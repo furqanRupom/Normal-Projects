@@ -1,0 +1,34 @@
+body{
+           
+    background-image: url(./img/pexels-ivan-babydov-7787947.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    background-color: gray;
+    background-blend-mode: multiply;
+    color: #f9004d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.container{
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 0 0 5px #f9004d,
+    0 0 5px #f9004d;
+    border: 0.1rem solid #f9004d;
+}
+.container h1{
+
+  
+
+    padding: 2rem;
+   
+    
+}
+
+.container p{
+    width: 50%;
+    margin: auto;
+}
