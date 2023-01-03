@@ -237,8 +237,7 @@ figcaption {
     padding: 2rem;
     border: none;
     border-radius: 1rem;
-    box-shadow: 0 0 5px #191919,
-        0 0 5px #191919;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 
@@ -316,6 +315,52 @@ figcaption {
 }
 
 
+/* form */
+
+
+.fh-primary{
+    text-align: center;
+    margin: 1rem 0;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 2rem;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(204, 0, 0, 0), rgba(203, 21, 25));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    
+    color: rgba(203,21,25);
+}
+
+.form-group > * {
+    display: flex;
+    width: 20vw;
+    margin: 0 auto;
+    padding:  1rem;
+    border-radius: 2rem;
+    transition: 0.5s ease-in-out;
+}
+
+.form-group input{
+    outline: none;
+    border: none;
+}
+.form-group textarea{
+    outline: none;
+    border: none;
+}
+.form-group input:hover{
+    outline: 4px solid rgba(203,21,25);
+}
+.form-group textarea:hover{
+    outline: 4px solid rgba(203,21,25);
+}
 /* links section */
 .links-section{
     margin: 2rem 0;
