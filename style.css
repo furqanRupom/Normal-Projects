@@ -144,8 +144,8 @@
 
 .articledou p {
     width: 50%;
-    color: rgba(203, 21, 25);
-    /* color: #f9004d; */
+    /* color: rgba(203, 21, 25); */
+    color: red;
     font-weight: 700;
    
 }
