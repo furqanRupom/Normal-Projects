@@ -107,8 +107,9 @@
     display: flex;
     align-items: left;
     justify-content: left;
-    background-image: url(./img/pexels-ivan-babydov-7787947.jpg);
-    background-size: conver;
+    /* background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-empty-room-with-neon-light-on-the-wall-background-picture-image_1226734.jpg); */
+    background-image: url(https://www.shutterstock.com/image-illustration/brick-wall-background-neon-light-260nw-1041376897.jpg);
+    background-size: cover;
     background-position: center;
     background-color: #808080;
     background-blend-mode: multiply;
@@ -127,6 +128,7 @@
     align-items: center;
     padding: 2rem 0;
     background-color: transparent;
+    backdrop-filter: blur(5px);
 }
 
 .articledou h1 {
