@@ -151,17 +151,17 @@
 }
 
 .articledou input {
-    background: rgba(203, 21, 25);
-    padding: 1rem 4rem;
+    background:transparent;
+    padding: 0.7rem 4rem;
     border-radius: 0.3rem;
     margin: 1rem 0;
     outline: none;
-    border: transparent;
+    border: 1px solid rgba(203,21,25);
 }
 
 .articledou input::placeholder{
     
-    color: #fff;
+    color: rgba(203,21,25);
 }
 
 .btn-section {
@@ -208,8 +208,8 @@ figcaption {
 /* blog section start */
 
 .andmain {
-    margin: 16rem 0;
- 
+    margin: 2rem 0;
+    
 }
 
 .andmain h1 {
